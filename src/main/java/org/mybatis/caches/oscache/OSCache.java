@@ -128,6 +128,9 @@ public final class OSCache implements Cache {
         return ret;
     }
 
+    /**
+     * {@inheritDoc}
+     */
     @Override
     public boolean equals(Object obj) {
         if (this == obj) {
@@ -144,11 +147,17 @@ public final class OSCache implements Cache {
         return this.id.equals(otherCache.getId());
     }
 
+    /**
+     * {@inheritDoc}
+     */
     @Override
     public int hashCode() {
         return this.id.hashCode();
     }
 
+    /**
+     * {@inheritDoc}
+     */
     @Override
     public String toString() {
         return "OSCache {"
