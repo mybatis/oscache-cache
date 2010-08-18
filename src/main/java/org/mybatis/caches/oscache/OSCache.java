@@ -51,6 +51,9 @@ public final class OSCache implements Cache {
      * @param id the Mapper id.
      */
     public OSCache(final String id) {
+        if (id == null) {
+            throw new IllegalArgumentException("Cache instances require an ID");
+        }
         this.id = id;
     }
 
