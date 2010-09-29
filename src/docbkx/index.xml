@@ -53,7 +53,8 @@
             MyBatis since the iBATIS version 2.X.</para>
             <para>Since MyBatis 3 comes without it, and we strongly use it, we decided to
             reintroduce his use.</para>
-            <para>Users that want to use OScache into their applications, first have to add in
+            <para>Users that want to use OScache into their applications, have to download the zip <ulink url="http://code.google.com/p/mybatis/downloads/detail?name=<?eval ${project.artifactId}?>-<?eval ${project.version}?>-bundle.zip">bundle</ulink>, decompress it and add the jars in the classpath;
+            Apache Maven users instead can simply add in
             the <literal>pom.xml</literal> the following dependency:</para>
             <programlisting language="xml"><![CDATA[<dependencies>
     ...
