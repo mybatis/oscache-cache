@@ -33,6 +33,10 @@
     <name>MyBatis Caches :: OSCache</name>
     <description>OSCache support for MyBatis Cache</description>
 
+    <properties>
+        <findbugs.onlyAnalyze>org.mybatis.caches.oscache.*</findbugs.onlyAnalyze>
+    </properties>
+
     <dependencies>
         <dependency>
             <groupId>opensymphony</groupId>
