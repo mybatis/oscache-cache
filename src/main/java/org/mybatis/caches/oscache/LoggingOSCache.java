@@ -18,7 +18,7 @@ package org.mybatis.caches.oscache;
 import org.apache.ibatis.cache.decorators.LoggingCache;
 
 /**
- * {@link LoggingCache} adapter for OSCache.
+ * {@code LoggingCache} adapter for OSCache.
  *
  * @version $Id$
  */

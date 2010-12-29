@@ -36,7 +36,7 @@ public final class OSCache implements Cache {
     private static final GeneralCacheAdministrator CACHE_ADMINISTRATOR = new GeneralCacheAdministrator();
 
     /**
-     * The {@link ReadWriteLock}.
+     * The {@code ReadWriteLock}.
      */
     private final ReadWriteLock readWriteLock = new ReentrantReadWriteLock();
 
