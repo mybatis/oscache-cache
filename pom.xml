@@ -30,13 +30,13 @@
     <artifactId>mybatis-oscache</artifactId>
     <packaging>jar</packaging>
     <name>MyBatis Caches :: OSCache</name>
-    <version>2</version>
+    <version>3-SNAPSHOT</version>
     <description>OSCache support for MyBatis Cache</description>
 
     <scm>
-        <url>scm:svn:http://mybatis.googlecode.com/svn/sub-projects/caches/tags/mybatis-caches-parent-2/oscache</url>
-        <connection>scm:svn:https://mybatis.googlecode.com/svn/sub-projects/caches/tags/mybatis-caches-parent-2/oscache</connection>
-        <developerConnection>scm:svn:https://mybatis.googlecode.com/svn/sub-projects/caches/tags/mybatis-caches-parent-2/oscache</developerConnection>
+        <url>scm:svn:http://mybatis.googlecode.com/svn/sub-projects/caches/trunk/oscache</url>
+        <connection>scm:svn:https://mybatis.googlecode.com/svn/sub-projects/caches/trunk/oscache</connection>
+        <developerConnection>scm:svn:https://mybatis.googlecode.com/svn/sub-projects/caches/trunk/oscache</developerConnection>
     </scm>
 
     <properties>
