@@ -30,7 +30,7 @@
     <artifactId>mybatis-oscache</artifactId>
     <packaging>jar</packaging>
     <name>MyBatis Caches :: OSCache</name>
-    <version>3-SNAPSHOT</version>
+    <version>1.0.0-SNAPSHOT</version>
     <description>OSCache support for MyBatis Cache</description>
 
     <scm>
