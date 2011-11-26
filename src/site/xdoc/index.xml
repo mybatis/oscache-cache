@@ -30,6 +30,10 @@
   <body>
     <section name="MyBatis OSCache integration - Reference Documentation">
 
+    <div class="alert-message block-message warning">
+      <p>Unfortunately, OpenSymphony has seen it's final days, and OSCache won't be maintained anymore.</p>
+    </div>
+
     <p><a href="http://www.opensymphony.com/oscache/">OSCache</a> is a high performances caching solution developed and maintained by
             <a href="http://www.opensymphony.com/">Open Symphony</a> and easily integrated in
             MyBatis since the iBATIS version 2.X.</p>
