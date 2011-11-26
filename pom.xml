@@ -39,6 +39,13 @@
     <connection>scm:svn:https://mybatis.googlecode.com/svn/sub-projects/caches/trunk/oscache</connection>
     <developerConnection>scm:svn:https://mybatis.googlecode.com/svn/sub-projects/caches/trunk/oscache</developerConnection>
   </scm>
+  <distributionManagement>
+    <!-- Cannot define in parent ATM, see COMMONSSITE-26 -->
+    <site>
+      <id>mybatis.site</id>
+      <url>ftp://${mybatis.host}/caches/oscache</url>
+    </site>
+  </distributionManagement>
 
   <properties>
     <findbugs.onlyAnalyze>org.mybatis.caches.oscache.*</findbugs.onlyAnalyze>
