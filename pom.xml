@@ -44,7 +44,7 @@
   </issueManagement>
   <ciManagement>
     <system>Travis CI</system>
-    <url>https://travis-ci.org/oscache-cache/guice</url>
+    <url>https://travis-ci.org/mybatis/oscache-cache/</url>
   </ciManagement>
   <distributionManagement>
     <site>
