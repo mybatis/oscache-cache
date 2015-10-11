@@ -60,6 +60,7 @@ public final class OSCache implements Cache {
     /**
      * {@inheritDoc}
      */
+    @Override
     public void clear() {
         CACHE_ADMINISTRATOR.flushGroup(this.id);
     }
@@ -67,6 +68,7 @@ public final class OSCache implements Cache {
     /**
      * {@inheritDoc}
      */
+    @Override
     public String getId() {
         return this.id;
     }
@@ -74,6 +76,7 @@ public final class OSCache implements Cache {
     /**
      * {@inheritDoc}
      */
+    @Override
     public Object getObject(Object key) {
         String keyString = key.toString();
         Object ret = null;
@@ -90,6 +93,7 @@ public final class OSCache implements Cache {
     /**
      * {@inheritDoc}
      */
+    @Override
     public ReadWriteLock getReadWriteLock() {
         return this.readWriteLock;
     }
@@ -97,6 +101,7 @@ public final class OSCache implements Cache {
     /**
      * {@inheritDoc}
      */
+    @Override
     public int getSize() {
         return CACHE_ADMINISTRATOR.getCache().getSize();
     }
@@ -104,6 +109,7 @@ public final class OSCache implements Cache {
     /**
      * {@inheritDoc}
      */
+    @Override
     public void putObject(Object key, Object value) {
         CACHE_ADMINISTRATOR.putInCache(key.toString(), value, new String[] { this.id });
     }
@@ -111,6 +117,7 @@ public final class OSCache implements Cache {
     /**
      * {@inheritDoc}
      */
+    @Override
     public Object removeObject(Object key) {
         String keyString = key.toString();
         Object ret = null;
