@@ -19,8 +19,6 @@ import org.apache.ibatis.cache.decorators.LoggingCache;
 
 /**
  * {@code LoggingCache} adapter for OSCache.
- *
- * @version $Id$
  */
 public final class LoggingOSCache extends LoggingCache {
 

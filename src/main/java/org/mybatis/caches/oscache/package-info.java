@@ -15,7 +15,5 @@
  */
 /**
  * Contains OSCache support for MyBatis Cache.
- *
- * @version $Id$
  */
 package org.mybatis.caches.oscache;

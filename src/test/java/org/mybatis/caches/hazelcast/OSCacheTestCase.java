@@ -23,11 +23,6 @@ import org.apache.ibatis.cache.Cache;
 import org.junit.Test;
 import org.mybatis.caches.oscache.OSCache;
 
-/**
- * 
- *
- * @version $Id$
- */
 public final class OSCacheTestCase {
 
     private static final String DEFAULT_ID = "Hazelcast";

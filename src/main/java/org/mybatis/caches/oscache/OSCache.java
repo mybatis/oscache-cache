@@ -25,8 +25,6 @@ import com.opensymphony.oscache.general.GeneralCacheAdministrator;
 
 /**
  * The OSCache-based Cache implementation.
- *
- * @version $Id$
  */
 public final class OSCache implements Cache {
 
