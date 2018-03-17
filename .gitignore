@@ -2,3 +2,4 @@
 .classpath
 .project
 .settings
+.mvn/wrapper/maven-wrapper.jar
