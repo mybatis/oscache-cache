@@ -29,7 +29,7 @@ import com.opensymphony.oscache.general.GeneralCacheAdministrator;
 public final class OSCache implements Cache {
 
   /**
-   * The shared 
+   * The shared
    */
   private static final GeneralCacheAdministrator CACHE_ADMINISTRATOR = new GeneralCacheAdministrator();
 
@@ -46,7 +46,8 @@ public final class OSCache implements Cache {
   /**
    * Builds a new OSCache-based Cache.
    *
-   * @param id the Mapper id.
+   * @param id
+   *          the Mapper id.
    */
   public OSCache(final String id) {
     if (id == null) {
