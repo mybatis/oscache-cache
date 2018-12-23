@@ -15,12 +15,12 @@
  */
 package org.mybatis.caches.hazelcast;
 
-import static org.junit.Assert.assertEquals;
-import static org.junit.Assert.assertNotNull;
-import static org.junit.Assert.assertNull;
+import static org.junit.jupiter.api.Assertions.assertEquals;
+import static org.junit.jupiter.api.Assertions.assertNotNull;
+import static org.junit.jupiter.api.Assertions.assertNull;
 
 import org.apache.ibatis.cache.Cache;
-import org.junit.Test;
+import org.junit.jupiter.api.Test;
 import org.mybatis.caches.oscache.OSCache;
 
 public final class OSCacheTestCase {
