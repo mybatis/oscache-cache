@@ -1,3 +1,8 @@
+❗️ Note:  
+❗️ This repository is read-only. OSCache is not maintained anymore.
+
+---
+
 MyBatis Oscache Extension
 =========================
 
